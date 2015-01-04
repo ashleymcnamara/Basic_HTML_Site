@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('http://www.franklinarts.com/media/blog/VEILED-Franklin-Arts.jpg');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="http://i.imgur.com/USgYBx0.jpg?2"">
+    <h1>Ashley's Blog</h1>
+    <ul>
+      <li><a href="http://www.ashleymcnamara.com">Website</a></li>
+      <li><a href="https://twitter.com/ashleymcnamara">Twitter</a></li>
+      <li><a href="https://www.linkedin.com/pub/ashley-mcnamara/7/578/a63">Linkedin</a></li>
+      <li><a href="https://www.facebook.com/ashley.mcnamara1">Facebook</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Lucas ipsum dolor sit amet dagobah </h2>
+    <p>Lucas ipsum dolor sit amet dagobah c-3p0 skywalker jinn secura darth qui-gonn organa boba yoda. Leia calrissian darth moff dagobah yavin leia leia. Ventress hutt moff darth wedge. C-3po kenobi r2-d2 skywalker antilles boba hutt darth hutt. Ben obi-wan darth yoda lando naboo lars. Dooku amidala moff anakin skywalker. Hutt sidious moff tatooine luke moff lars biggs. Jinn obi-wan zabrak organa mace mandalore skywalker. Twi'lek lando moff windu wedge mon binks tatooine qui-gonn. Thrawn mandalore kit yoda.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Lucas ipsum dolor sit amet droid</h2>
+    <p>Lucas ipsum dolor sit amet droid cerean r2-d2 organa hoojib skywalker quinlan tierce emtrey tagge. Kushiban galen sabé stereb yuzzem tc-14. Senex anomid boltrunians kuat. Kowakian neti ben bertroff yavin fel kenobi gamorrean. Paaerduag desolous alderaan terrik jubnuk. Kael chewbacca miraluka cad ben utapau cal. Organa subterrel bando hypori cornelius. Twi'lek skakoan obi-wan fisto fisto gand. R4-p17 ansuroer mara gand sarn wedge dunhausen arkanis. Kushiban bando letaki jettster farlander omas beru.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Lucas ipsum dolor sit amet</h2>
+    <p>Lucas ipsum dolor sit amet mace organa endor qui-gon greedo ackbar mandalorians ackbar lars qui-gonn. Wedge maul darth endor vader. Yavin organa kenobi jango twi'lek organa ben organa dooku. Yoda binks ponda twi'lek jabba. Dooku anakin gamorrean yavin cade lobot calrissian. Watto organa skywalker fisto skywalker jango chewbacca baba ackbar. Darth jabba skywalker padmé binks jinn twi'lek. Ponda vader moff skywalker. Calamari skywalker mon chewbacca dooku obi-wan skywalker dagobah. Fett solo greedo organa.</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
